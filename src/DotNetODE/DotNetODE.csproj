@@ -1,0 +1,29 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net7.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+    <GenerateDocumentationFile>true</GenerateDocumentationFile>
+    <PackageId>dotnet-ode</PackageId>
+    <Version>0.1.1</Version>
+    <Authors>ÂnimaLab</Authors>
+    <Company>ÂnimaLab</Company>
+    <Description>Opinionated delivery engine for .NET applications.</Description>
+    <PackageTags>ode;dotnet;architecture;usecase;mvvm;workflow;delivery-engine</PackageTags>
+    <PackageReadmeFile>README.md</PackageReadmeFile>
+    <PackageLicenseExpression>Apache-2.0</PackageLicenseExpression>
+    <RepositoryUrl>https://github.com/animalab-netizen/dotnet-ode</RepositoryUrl>
+    <RepositoryType>git</RepositoryType>
+    <PackageProjectUrl>https://github.com/animalab-netizen/dotnet-ode</PackageProjectUrl>
+    <PackageReleaseNotes>Fix ChainUseCase inheritance and align the published API with the documented runtime.</PackageReleaseNotes>
+    <IncludeSymbols>true</IncludeSymbols>
+    <SymbolPackageFormat>snupkg</SymbolPackageFormat>
+    <NoWarn>$(NoWarn);CS1591</NoWarn>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <None Include="..\..\README.md" Pack="true" PackagePath="\" />
+  </ItemGroup>
+
+</Project>
