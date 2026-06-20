@@ -7,7 +7,7 @@
 Current coordinates:
 
 - package: `dotnet-ode`
-- version: `0.1.1`
+- version: `0.1.2`
 - repository: [github.com/animalab-netizen/dotnet-ode](https://github.com/animalab-netizen/dotnet-ode)
 
 ## Trusted Publishing
@@ -41,7 +41,7 @@ The package is intended for:
 ## Installation
 
 ```xml
-<PackageReference Include="dotnet-ode" Version="0.1.1" />
+<PackageReference Include="dotnet-ode" Version="0.1.2" />
 ```
 
 ## Release Checklist
@@ -54,7 +54,7 @@ The package is intended for:
 4. Update `CHANGELOG.md`
 5. Confirm version in `DotNetODE.csproj`
 6. Commit release metadata
-7. Create and push tag `v0.1.1`
+7. Create and push tag `v0.1.2`
 
 ### Public Package Gate
 
@@ -62,9 +62,9 @@ The package is intended for:
 2. In NuGet.org, create or verify the Trusted Publisher entry for `animalab-netizen/dotnet-ode`
 3. Confirm the GitHub workflow file is `.github/workflows/release.yml`
 4. Confirm the workflow job has `id-token: write`
-5. Push tag `v0.1.1`
+5. Push tag `v0.1.2`
 6. Verify the package page on NuGet
-7. Validate installation from a clean consumer with `<PackageReference Include="dotnet-ode" Version="0.1.1" />`
+7. Validate installation from a clean consumer with `<PackageReference Include="dotnet-ode" Version="0.1.2" />`
 8. Publish release notes with install and usage examples
 
 ## Packaging Notes

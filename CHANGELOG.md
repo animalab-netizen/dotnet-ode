@@ -1,5 +1,11 @@
 # Changelog
 
+## 0.1.2
+
+- configured the first public NuGet release flow through Trusted Publishing
+- added the GitHub Actions release workflow for tag-driven package publication
+- prepared the package metadata and release docs for the first trusted release
+
 ## 0.1.1
 
 - restored `ChainUseCase` as an inheritable public runtime primitive

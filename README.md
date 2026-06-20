@@ -25,12 +25,12 @@ The package is maintained by ÂnimaLab and is being positioned as the Microsoft 
 Current coordinates:
 
 - package: `dotnet-ode`
-- version: `0.1.1`
+- version: `0.1.2`
 
 Installation:
 
 ```xml
-<PackageReference Include="dotnet-ode" Version="0.1.1" />
+<PackageReference Include="dotnet-ode" Version="0.1.2" />
 ```
 
 ## Public API
