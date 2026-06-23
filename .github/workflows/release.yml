@@ -30,7 +30,8 @@ jobs:
         run: dotnet build dotnet-ode.sln --configuration Release --no-restore
 
       - name: Test
-        run: dotnet test dotnet-ode.sln --configuration Release --no-build
+        working-directory: tests/DotNetODE.Tests
+        run: dotnet test --configuration Release --no-build
 
       - name: Validate tag matches package version
         if: startsWith(github.ref, 'refs/tags/v')
