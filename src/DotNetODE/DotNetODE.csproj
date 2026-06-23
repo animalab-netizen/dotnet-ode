@@ -6,7 +6,7 @@
     <Nullable>enable</Nullable>
     <GenerateDocumentationFile>true</GenerateDocumentationFile>
     <PackageId>dotnet-ode</PackageId>
-    <Version>0.1.4</Version>
+    <Version>0.1.5</Version>
     <Authors>ÂnimaLab</Authors>
     <Company>ÂnimaLab</Company>
     <Description>Opinionated delivery engine for .NET applications.</Description>
@@ -16,7 +16,7 @@
     <RepositoryUrl>https://github.com/animalab-netizen/dotnet-ode</RepositoryUrl>
     <RepositoryType>git</RepositoryType>
     <PackageProjectUrl>https://github.com/animalab-netizen/dotnet-ode</PackageProjectUrl>
-    <PackageReleaseNotes>Hardens the GitHub Actions test step for Trusted Publishing and ships the public dotnet-ode NuGet release.</PackageReleaseNotes>
+    <PackageReleaseNotes>Updates the test toolchain for modern GitHub runners and stabilizes the Trusted Publishing release flow.</PackageReleaseNotes>
     <IncludeSymbols>true</IncludeSymbols>
     <SymbolPackageFormat>snupkg</SymbolPackageFormat>
     <NoWarn>$(NoWarn);CS1591</NoWarn>
