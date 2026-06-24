@@ -27,4 +27,5 @@ jobs:
         run: dotnet build dotnet-ode.sln --no-restore
 
       - name: Test
-        run: dotnet test dotnet-ode.sln --no-build
+        working-directory: tests/DotNetODE.Tests
+        run: dotnet test
