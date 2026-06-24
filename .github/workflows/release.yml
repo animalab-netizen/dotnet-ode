@@ -39,6 +39,9 @@ jobs:
     permissions:
       contents: write
 
+    env:
+      NUGET_API_KEY: ${{ secrets.NUGET_API_KEY }}
+
     steps:
       - name: Checkout
         uses: actions/checkout@v4
@@ -64,9 +67,7 @@ jobs:
         run: dotnet pack src/DotNetODE/DotNetODE.csproj -c Release -o ./artifacts
 
       - name: Publish to NuGet
-        if: ${{ secrets.NUGET_API_KEY != '' }}
-        env:
-          NUGET_API_KEY: ${{ secrets.NUGET_API_KEY }}
+        if: ${{ env.NUGET_API_KEY != '' }}
         run: |
           dotnet nuget push "./artifacts/*.nupkg" --api-key "$NUGET_API_KEY" --source "https://api.nuget.org/v3/index.json" --skip-duplicate
           dotnet nuget push "./artifacts/*.snupkg" --api-key "$NUGET_API_KEY" --source "https://api.nuget.org/v3/index.json" --skip-duplicate

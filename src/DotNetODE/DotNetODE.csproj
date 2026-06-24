@@ -6,7 +6,7 @@
     <Nullable>enable</Nullable>
     <GenerateDocumentationFile>true</GenerateDocumentationFile>
     <PackageId>dotnet-ode</PackageId>
-    <Version>0.1.7</Version>
+    <Version>0.1.8</Version>
     <Authors>ÂnimaLab</Authors>
     <Company>ÂnimaLab</Company>
     <Description>Opinionated delivery engine for .NET applications.</Description>
@@ -16,7 +16,7 @@
     <RepositoryUrl>https://github.com/animalab-netizen/dotnet-ode</RepositoryUrl>
     <RepositoryType>git</RepositoryType>
     <PackageProjectUrl>https://github.com/animalab-netizen/dotnet-ode</PackageProjectUrl>
-    <PackageReleaseNotes>Aligns dotnet-ode NuGet publication with the proven dotnet-drmanhatan release flow using a NuGet API key in GitHub Actions.</PackageReleaseNotes>
+    <PackageReleaseNotes>Fixes the GitHub Actions NuGet API key condition and keeps dotnet-ode aligned with the working dotnet-drmanhatan publication flow.</PackageReleaseNotes>
     <IncludeSymbols>true</IncludeSymbols>
     <SymbolPackageFormat>snupkg</SymbolPackageFormat>
     <NoWarn>$(NoWarn);CS1591</NoWarn>
